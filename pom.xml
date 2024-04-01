@@ -15,7 +15,7 @@
     </organization>
 
     <scm>
-        <connection>scm:git:@github.com:martyh/jira-enhanced-scheduler-plugin-test.git</connection>
+        <connection>scm:git@github.com:Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test.git</connection>
     </scm>
 
     <name>jira-enhanced-scheduler-plugin</name>

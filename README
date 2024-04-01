@@ -1,3 +1,5 @@
+This is an Atlassian plugin to create a number of scheduled jobs in Jira. This is aimed to test improvements to the Jira scheduler.
+
 You have successfully created an Atlassian Plugin!
 
 Here are the SDK commands you'll use immediately:

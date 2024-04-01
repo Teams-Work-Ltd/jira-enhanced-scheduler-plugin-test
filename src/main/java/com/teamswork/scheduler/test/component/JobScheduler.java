@@ -21,13 +21,13 @@ public class JobScheduler extends PluginStateListener {
     private final SchedulerService schedulerService;
 
     public JobScheduler(@ComponentImport final EventPublisher eventPublisher,
+                        @ComponentImport final SchedulerService schedulerService,
                         final TimedJobRunner timedJobRunner,
                         final TimedJobRunner2 timedJobRunner2,
                         final TimedJobRunner3 timedJobRunner3,
                         final TimedJobRunner4 timedJobRunner4,
                         final TimedJobRunner5 timedJobRunner5,
-                        final TimedJobRunner6 timedJobRunner6,
-                        final SchedulerService schedulerService) {
+                        final TimedJobRunner6 timedJobRunner6) {
         super(eventPublisher);
         this.timedJobRunner = timedJobRunner;
         this.timedJobRunner2 = timedJobRunner2;

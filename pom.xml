@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.teamswork.scheduler</groupId>
     <artifactId>jira-enhanced-scheduler-plugin-test</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <organization>
         <name>Teams, Work.</name>
@@ -15,7 +15,7 @@
     <scm>
         <connection>scm:git:git@github.com:Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test.git</connection>
         <developerConnection>scm:git:git@github.com:Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test.git</developerConnection>
-      <tag>jira-enhanced-scheduler-plugin-test-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <distributionManagement>

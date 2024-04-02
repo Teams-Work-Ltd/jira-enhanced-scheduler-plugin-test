@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.teamswork.scheduler</groupId>
     <artifactId>jira-enhanced-scheduler-plugin-test</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <organization>
         <name>Teams, Work.</name>
@@ -17,7 +15,8 @@
     <scm>
         <connection>scm:git:git@github.com:Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test.git</connection>
         <developerConnection>scm:git:git@github.com:Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test.git</developerConnection>
-    </scm>
+      <tag>jira-enhanced-scheduler-plugin-test-1.0.0</tag>
+  </scm>
 
     <distributionManagement>
         <repository>
@@ -118,10 +117,10 @@
                         <configuration>
                             <target>
                                 <delete failonerror="false">
-                                    <fileset dir="${project.build.directory}" includes="*.jar"/>
-                                    <fileset dir="${project.build.directory}" includes="*.obr"/>
-                                    <fileset dir="${project.build.directory}/obr" includes="*.*"/>
-                                    <fileset dir="${project.build.directory}/quickreload" includes="*.jar"/>
+                                    <fileset dir="${project.build.directory}" includes="*.jar" />
+                                    <fileset dir="${project.build.directory}" includes="*.obr" />
+                                    <fileset dir="${project.build.directory}/obr" includes="*.*" />
+                                    <fileset dir="${project.build.directory}/quickreload" includes="*.jar" />
                                 </delete>
                             </target>
                         </configuration>

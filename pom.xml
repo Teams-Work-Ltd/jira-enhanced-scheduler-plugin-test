@@ -20,6 +20,14 @@
         <url>https://github.com/Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test</url>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test</url>
+        </repository>
+    </distributionManagement>
+
     <name>jira-enhanced-scheduler-plugin</name>
     <description>This is a test plugin to verify the actions of the enhanced scheduler plugin.</description>
     <packaging>atlassian-plugin</packaging>

@@ -17,7 +17,6 @@
     <scm>
         <connection>scm:git@github.com:Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test.git</connection>
         <developerConnection>scm:git@github.com:Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test.git</developerConnection>
-        <url>https://github.com/Teams-Work-Ltd/jira-enhanced-scheduler-plugin-test</url>
     </scm>
 
     <distributionManagement>
